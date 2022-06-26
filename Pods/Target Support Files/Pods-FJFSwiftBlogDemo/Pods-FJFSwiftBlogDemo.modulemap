@@ -1,0 +1,6 @@
+module Pods_FJFSwiftBlogDemo {
+  umbrella header "Pods-FJFSwiftBlogDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

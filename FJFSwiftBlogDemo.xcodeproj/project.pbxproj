@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3054321ED9FC7612A8E25CA3 /* libPods-FJFSwiftBlogDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E24B318D5D1F4080FA57F0E /* libPods-FJFSwiftBlogDemo.a */; };
 		8A9563AF27314D6D00AA7295 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9563AE27314D6D00AA7295 /* AppDelegate.swift */; };
-		8A9563B127314D6D00AA7295 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9563B027314D6D00AA7295 /* SceneDelegate.swift */; };
 		8A9563B327314D6D00AA7295 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9563B227314D6D00AA7295 /* ViewController.swift */; };
 		8A9563B627314D6D00AA7295 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A9563B427314D6D00AA7295 /* Main.storyboard */; };
 		8A9563B827314D6E00AA7295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A9563B727314D6E00AA7295 /* Assets.xcassets */; };
@@ -16,6 +16,27 @@
 		8A9563C627314D6E00AA7295 /* FJFSwiftBlogDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9563C527314D6E00AA7295 /* FJFSwiftBlogDemoTests.swift */; };
 		8A9563D027314D6E00AA7295 /* FJFSwiftBlogDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9563CF27314D6E00AA7295 /* FJFSwiftBlogDemoUITests.swift */; };
 		8A9563D227314D6E00AA7295 /* FJFSwiftBlogDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9563D127314D6E00AA7295 /* FJFSwiftBlogDemoUITestsLaunchTests.swift */; };
+		8AD49FA528685A58009BF0DC /* FJFImageLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49F9428685A58009BF0DC /* FJFImageLabelView.swift */; };
+		8AD49FA628685A58009BF0DC /* FJFImageLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49F9528685A58009BF0DC /* FJFImageLabelViewController.swift */; };
+		8AD49FA728685A58009BF0DC /* fjf_address_add_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AD49F9628685A58009BF0DC /* fjf_address_add_icon@3x.png */; };
+		8AD49FA828685A58009BF0DC /* FJFTextInputIntercepter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49F9828685A58009BF0DC /* FJFTextInputIntercepter.swift */; };
+		8AD49FA928685A58009BF0DC /* FJFPersonalDescEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49F9928685A58009BF0DC /* FJFPersonalDescEditViewController.swift */; };
+		8AD49FAA28685A58009BF0DC /* FJFTextInpputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49F9A28685A58009BF0DC /* FJFTextInpputViewController.swift */; };
+		8AD49FAB28685A58009BF0DC /* FJFPersonInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49F9B28685A58009BF0DC /* FJFPersonInfoViewController.swift */; };
+		8AD49FAC28685A58009BF0DC /* String+FJFTextInputStringType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49F9C28685A58009BF0DC /* String+FJFTextInputStringType.swift */; };
+		8AD49FAD28685A58009BF0DC /* FJFPersonListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49F9E28685A58009BF0DC /* FJFPersonListModel.swift */; };
+		8AD49FAE28685A58009BF0DC /* FJFItemAutoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49FA028685A58009BF0DC /* FJFItemAutoListView.swift */; };
+		8AD49FAF28685A58009BF0DC /* FJFItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49FA128685A58009BF0DC /* FJFItemListView.swift */; };
+		8AD49FB028685A58009BF0DC /* FJFItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49FA228685A58009BF0DC /* FJFItemListViewController.swift */; };
+		8AD49FB128685A58009BF0DC /* FJFItemPersonInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49FA328685A58009BF0DC /* FJFItemPersonInfoView.swift */; };
+		8AD49FB228685A58009BF0DC /* FJFItemPersonInfoListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49FA428685A58009BF0DC /* FJFItemPersonInfoListCell.swift */; };
+		8AD49FB628685A6C009BF0DC /* FJFButtonClickedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49FB428685A6C009BF0DC /* FJFButtonClickedViewController.swift */; };
+		8AD49FB728685A6C009BF0DC /* FJFButtonTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49FB528685A6C009BF0DC /* FJFButtonTestView.swift */; };
+		8AD49FDE28685A7B009BF0DC /* fjf_wait_timeout_progress_mask_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AD49FB928685A7B009BF0DC /* fjf_wait_timeout_progress_mask_icon@2x.png */; };
+		8AD49FDF28685A7B009BF0DC /* fjf_wait_timeout_progress_mask_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AD49FBA28685A7B009BF0DC /* fjf_wait_timeout_progress_mask_icon@3x.png */; };
+		8AD49FE028685A7B009BF0DC /* FJFLottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49FBB28685A7B009BF0DC /* FJFLottieViewController.swift */; };
+		8AD49FE128685A7B009BF0DC /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49FBC28685A7B009BF0DC /* UIView+Extension.swift */; };
+		8AD49FF428685A7B009BF0DC /* FJFAnimationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49FD528685A7B009BF0DC /* FJFAnimationHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +59,6 @@
 /* Begin PBXFileReference section */
 		8A9563AB27314D6D00AA7295 /* FJFSwiftBlogDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FJFSwiftBlogDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9563AE27314D6D00AA7295 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8A9563B027314D6D00AA7295 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8A9563B227314D6D00AA7295 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8A9563B527314D6D00AA7295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A9563B727314D6E00AA7295 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +69,30 @@
 		8A9563CB27314D6E00AA7295 /* FJFSwiftBlogDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FJFSwiftBlogDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9563CF27314D6E00AA7295 /* FJFSwiftBlogDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FJFSwiftBlogDemoUITests.swift; sourceTree = "<group>"; };
 		8A9563D127314D6E00AA7295 /* FJFSwiftBlogDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FJFSwiftBlogDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8AD49F9428685A58009BF0DC /* FJFImageLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJFImageLabelView.swift; sourceTree = "<group>"; };
+		8AD49F9528685A58009BF0DC /* FJFImageLabelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJFImageLabelViewController.swift; sourceTree = "<group>"; };
+		8AD49F9628685A58009BF0DC /* fjf_address_add_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fjf_address_add_icon@3x.png"; sourceTree = "<group>"; };
+		8AD49F9828685A58009BF0DC /* FJFTextInputIntercepter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJFTextInputIntercepter.swift; sourceTree = "<group>"; };
+		8AD49F9928685A58009BF0DC /* FJFPersonalDescEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJFPersonalDescEditViewController.swift; sourceTree = "<group>"; };
+		8AD49F9A28685A58009BF0DC /* FJFTextInpputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJFTextInpputViewController.swift; sourceTree = "<group>"; };
+		8AD49F9B28685A58009BF0DC /* FJFPersonInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJFPersonInfoViewController.swift; sourceTree = "<group>"; };
+		8AD49F9C28685A58009BF0DC /* String+FJFTextInputStringType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+FJFTextInputStringType.swift"; sourceTree = "<group>"; };
+		8AD49F9E28685A58009BF0DC /* FJFPersonListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJFPersonListModel.swift; sourceTree = "<group>"; };
+		8AD49FA028685A58009BF0DC /* FJFItemAutoListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJFItemAutoListView.swift; sourceTree = "<group>"; };
+		8AD49FA128685A58009BF0DC /* FJFItemListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJFItemListView.swift; sourceTree = "<group>"; };
+		8AD49FA228685A58009BF0DC /* FJFItemListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJFItemListViewController.swift; sourceTree = "<group>"; };
+		8AD49FA328685A58009BF0DC /* FJFItemPersonInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJFItemPersonInfoView.swift; sourceTree = "<group>"; };
+		8AD49FA428685A58009BF0DC /* FJFItemPersonInfoListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJFItemPersonInfoListCell.swift; sourceTree = "<group>"; };
+		8AD49FB428685A6C009BF0DC /* FJFButtonClickedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJFButtonClickedViewController.swift; sourceTree = "<group>"; };
+		8AD49FB528685A6C009BF0DC /* FJFButtonTestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJFButtonTestView.swift; sourceTree = "<group>"; };
+		8AD49FB928685A7B009BF0DC /* fjf_wait_timeout_progress_mask_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fjf_wait_timeout_progress_mask_icon@2x.png"; sourceTree = "<group>"; };
+		8AD49FBA28685A7B009BF0DC /* fjf_wait_timeout_progress_mask_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fjf_wait_timeout_progress_mask_icon@3x.png"; sourceTree = "<group>"; };
+		8AD49FBB28685A7B009BF0DC /* FJFLottieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJFLottieViewController.swift; sourceTree = "<group>"; };
+		8AD49FBC28685A7B009BF0DC /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		8AD49FD528685A7B009BF0DC /* FJFAnimationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJFAnimationHelper.swift; sourceTree = "<group>"; };
+		8E24B318D5D1F4080FA57F0E /* libPods-FJFSwiftBlogDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FJFSwiftBlogDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E095AF88FCC1C90B5B93546E /* Pods-FJFSwiftBlogDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FJFSwiftBlogDemo.debug.xcconfig"; path = "Target Support Files/Pods-FJFSwiftBlogDemo/Pods-FJFSwiftBlogDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FD0710DE223B3809BD95C6F4 /* Pods-FJFSwiftBlogDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FJFSwiftBlogDemo.release.xcconfig"; path = "Target Support Files/Pods-FJFSwiftBlogDemo/Pods-FJFSwiftBlogDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3054321ED9FC7612A8E25CA3 /* libPods-FJFSwiftBlogDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +121,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		87A7E730E669FBFC519ADA34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E24B318D5D1F4080FA57F0E /* libPods-FJFSwiftBlogDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8A9563A227314D6D00AA7295 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +136,8 @@
 				8A9563C427314D6E00AA7295 /* FJFSwiftBlogDemoTests */,
 				8A9563CE27314D6E00AA7295 /* FJFSwiftBlogDemoUITests */,
 				8A9563AC27314D6D00AA7295 /* Products */,
+				C57637A9B032072288DE91FA /* Pods */,
+				87A7E730E669FBFC519ADA34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +154,8 @@
 		8A9563AD27314D6D00AA7295 /* FJFSwiftBlogDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8AD49F9128685A58009BF0DC /* FJFSwiftBlog */,
 				8A9563AE27314D6D00AA7295 /* AppDelegate.swift */,
-				8A9563B027314D6D00AA7295 /* SceneDelegate.swift */,
 				8A9563B227314D6D00AA7295 /* ViewController.swift */,
 				8A9563B427314D6D00AA7295 /* Main.storyboard */,
 				8A9563B727314D6E00AA7295 /* Assets.xcassets */,
@@ -127,6 +182,99 @@
 			path = FJFSwiftBlogDemoUITests;
 			sourceTree = "<group>";
 		};
+		8AD49F9128685A58009BF0DC /* FJFSwiftBlog */ = {
+			isa = PBXGroup;
+			children = (
+				8AD49FB828685A7B009BF0DC /* FJFLottieAnimationDemo */,
+				8AD49FB328685A6C009BF0DC /* FJFButtonClickedDemo */,
+				8AD49F9228685A58009BF0DC /* FJFImageLabelViewDemo */,
+				8AD49F9728685A58009BF0DC /* FJFTextInputIntercepterDemo */,
+				8AD49F9D28685A58009BF0DC /* FJFItemListViewDemo */,
+			);
+			path = FJFSwiftBlog;
+			sourceTree = "<group>";
+		};
+		8AD49F9228685A58009BF0DC /* FJFImageLabelViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8AD49F9328685A58009BF0DC /* FJFImageLabelView */,
+				8AD49F9528685A58009BF0DC /* FJFImageLabelViewController.swift */,
+				8AD49F9628685A58009BF0DC /* fjf_address_add_icon@3x.png */,
+			);
+			path = FJFImageLabelViewDemo;
+			sourceTree = "<group>";
+		};
+		8AD49F9328685A58009BF0DC /* FJFImageLabelView */ = {
+			isa = PBXGroup;
+			children = (
+				8AD49F9428685A58009BF0DC /* FJFImageLabelView.swift */,
+			);
+			path = FJFImageLabelView;
+			sourceTree = "<group>";
+		};
+		8AD49F9728685A58009BF0DC /* FJFTextInputIntercepterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8AD49F9828685A58009BF0DC /* FJFTextInputIntercepter.swift */,
+				8AD49F9928685A58009BF0DC /* FJFPersonalDescEditViewController.swift */,
+				8AD49F9A28685A58009BF0DC /* FJFTextInpputViewController.swift */,
+				8AD49F9B28685A58009BF0DC /* FJFPersonInfoViewController.swift */,
+				8AD49F9C28685A58009BF0DC /* String+FJFTextInputStringType.swift */,
+			);
+			path = FJFTextInputIntercepterDemo;
+			sourceTree = "<group>";
+		};
+		8AD49F9D28685A58009BF0DC /* FJFItemListViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8AD49F9E28685A58009BF0DC /* FJFPersonListModel.swift */,
+				8AD49F9F28685A58009BF0DC /* FJFItemListView */,
+				8AD49FA228685A58009BF0DC /* FJFItemListViewController.swift */,
+				8AD49FA328685A58009BF0DC /* FJFItemPersonInfoView.swift */,
+				8AD49FA428685A58009BF0DC /* FJFItemPersonInfoListCell.swift */,
+			);
+			path = FJFItemListViewDemo;
+			sourceTree = "<group>";
+		};
+		8AD49F9F28685A58009BF0DC /* FJFItemListView */ = {
+			isa = PBXGroup;
+			children = (
+				8AD49FA028685A58009BF0DC /* FJFItemAutoListView.swift */,
+				8AD49FA128685A58009BF0DC /* FJFItemListView.swift */,
+			);
+			path = FJFItemListView;
+			sourceTree = "<group>";
+		};
+		8AD49FB328685A6C009BF0DC /* FJFButtonClickedDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8AD49FB428685A6C009BF0DC /* FJFButtonClickedViewController.swift */,
+				8AD49FB528685A6C009BF0DC /* FJFButtonTestView.swift */,
+			);
+			path = FJFButtonClickedDemo;
+			sourceTree = "<group>";
+		};
+		8AD49FB828685A7B009BF0DC /* FJFLottieAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8AD49FB928685A7B009BF0DC /* fjf_wait_timeout_progress_mask_icon@2x.png */,
+				8AD49FBA28685A7B009BF0DC /* fjf_wait_timeout_progress_mask_icon@3x.png */,
+				8AD49FD528685A7B009BF0DC /* FJFAnimationHelper.swift */,
+				8AD49FBB28685A7B009BF0DC /* FJFLottieViewController.swift */,
+				8AD49FBC28685A7B009BF0DC /* UIView+Extension.swift */,
+			);
+			path = FJFLottieAnimationDemo;
+			sourceTree = "<group>";
+		};
+		C57637A9B032072288DE91FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E095AF88FCC1C90B5B93546E /* Pods-FJFSwiftBlogDemo.debug.xcconfig */,
+				FD0710DE223B3809BD95C6F4 /* Pods-FJFSwiftBlogDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +282,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A9563D527314D6E00AA7295 /* Build configuration list for PBXNativeTarget "FJFSwiftBlogDemo" */;
 			buildPhases = (
+				1612452B7F1F2F9E52BB2428 /* [CP] Check Pods Manifest.lock */,
 				8A9563A727314D6D00AA7295 /* Sources */,
 				8A9563A827314D6D00AA7295 /* Frameworks */,
 				8A9563A927314D6D00AA7295 /* Resources */,
@@ -231,6 +380,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AD49FDE28685A7B009BF0DC /* fjf_wait_timeout_progress_mask_icon@2x.png in Resources */,
+				8AD49FDF28685A7B009BF0DC /* fjf_wait_timeout_progress_mask_icon@3x.png in Resources */,
+				8AD49FA728685A58009BF0DC /* fjf_address_add_icon@3x.png in Resources */,
 				8A9563BB27314D6E00AA7295 /* LaunchScreen.storyboard in Resources */,
 				8A9563B827314D6E00AA7295 /* Assets.xcassets in Resources */,
 				8A9563B627314D6D00AA7295 /* Main.storyboard in Resources */,
@@ -253,14 +405,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1612452B7F1F2F9E52BB2428 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FJFSwiftBlogDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8A9563A727314D6D00AA7295 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AD49FA828685A58009BF0DC /* FJFTextInputIntercepter.swift in Sources */,
+				8AD49FF428685A7B009BF0DC /* FJFAnimationHelper.swift in Sources */,
+				8AD49FA628685A58009BF0DC /* FJFImageLabelViewController.swift in Sources */,
+				8AD49FAC28685A58009BF0DC /* String+FJFTextInputStringType.swift in Sources */,
 				8A9563B327314D6D00AA7295 /* ViewController.swift in Sources */,
+				8AD49FE028685A7B009BF0DC /* FJFLottieViewController.swift in Sources */,
+				8AD49FB728685A6C009BF0DC /* FJFButtonTestView.swift in Sources */,
+				8AD49FAF28685A58009BF0DC /* FJFItemListView.swift in Sources */,
+				8AD49FAA28685A58009BF0DC /* FJFTextInpputViewController.swift in Sources */,
+				8AD49FAB28685A58009BF0DC /* FJFPersonInfoViewController.swift in Sources */,
 				8A9563AF27314D6D00AA7295 /* AppDelegate.swift in Sources */,
-				8A9563B127314D6D00AA7295 /* SceneDelegate.swift in Sources */,
+				8AD49FA928685A58009BF0DC /* FJFPersonalDescEditViewController.swift in Sources */,
+				8AD49FA528685A58009BF0DC /* FJFImageLabelView.swift in Sources */,
+				8AD49FE128685A7B009BF0DC /* UIView+Extension.swift in Sources */,
+				8AD49FAE28685A58009BF0DC /* FJFItemAutoListView.swift in Sources */,
+				8AD49FB228685A58009BF0DC /* FJFItemPersonInfoListCell.swift in Sources */,
+				8AD49FAD28685A58009BF0DC /* FJFPersonListModel.swift in Sources */,
+				8AD49FB028685A58009BF0DC /* FJFItemListViewController.swift in Sources */,
+				8AD49FB128685A58009BF0DC /* FJFItemPersonInfoView.swift in Sources */,
+				8AD49FB628685A6C009BF0DC /* FJFButtonClickedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +628,7 @@
 		};
 		8A9563D627314D6E00AA7295 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E095AF88FCC1C90B5B93546E /* Pods-FJFSwiftBlogDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -461,6 +656,7 @@
 		};
 		8A9563D727314D6E00AA7295 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD0710DE223B3809BD95C6F4 /* Pods-FJFSwiftBlogDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
