@@ -37,6 +37,7 @@
 		8AD49FE028685A7B009BF0DC /* FJFLottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49FBB28685A7B009BF0DC /* FJFLottieViewController.swift */; };
 		8AD49FE128685A7B009BF0DC /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49FBC28685A7B009BF0DC /* UIView+Extension.swift */; };
 		8AD49FF428685A7B009BF0DC /* FJFAnimationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49FD528685A7B009BF0DC /* FJFAnimationHelper.swift */; };
+		8AD49FFC2868A44C009BF0DC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49FFB2868A44C009BF0DC /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		8AD49FBB28685A7B009BF0DC /* FJFLottieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJFLottieViewController.swift; sourceTree = "<group>"; };
 		8AD49FBC28685A7B009BF0DC /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		8AD49FD528685A7B009BF0DC /* FJFAnimationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJFAnimationHelper.swift; sourceTree = "<group>"; };
+		8AD49FFB2868A44C009BF0DC /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8E24B318D5D1F4080FA57F0E /* libPods-FJFSwiftBlogDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FJFSwiftBlogDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E095AF88FCC1C90B5B93546E /* Pods-FJFSwiftBlogDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FJFSwiftBlogDemo.debug.xcconfig"; path = "Target Support Files/Pods-FJFSwiftBlogDemo/Pods-FJFSwiftBlogDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		FD0710DE223B3809BD95C6F4 /* Pods-FJFSwiftBlogDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FJFSwiftBlogDemo.release.xcconfig"; path = "Target Support Files/Pods-FJFSwiftBlogDemo/Pods-FJFSwiftBlogDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				8AD49F9128685A58009BF0DC /* FJFSwiftBlog */,
 				8A9563AE27314D6D00AA7295 /* AppDelegate.swift */,
 				8A9563B227314D6D00AA7295 /* ViewController.swift */,
+				8AD49FFB2868A44C009BF0DC /* main.swift */,
 				8A9563B427314D6D00AA7295 /* Main.storyboard */,
 				8A9563B727314D6E00AA7295 /* Assets.xcassets */,
 				8A9563B927314D6E00AA7295 /* LaunchScreen.storyboard */,
@@ -443,6 +446,7 @@
 				8AD49FE028685A7B009BF0DC /* FJFLottieViewController.swift in Sources */,
 				8AD49FB728685A6C009BF0DC /* FJFButtonTestView.swift in Sources */,
 				8AD49FAF28685A58009BF0DC /* FJFItemListView.swift in Sources */,
+				8AD49FFC2868A44C009BF0DC /* main.swift in Sources */,
 				8AD49FAA28685A58009BF0DC /* FJFTextInpputViewController.swift in Sources */,
 				8AD49FAB28685A58009BF0DC /* FJFPersonInfoViewController.swift in Sources */,
 				8A9563AF27314D6D00AA7295 /* AppDelegate.swift in Sources */,
