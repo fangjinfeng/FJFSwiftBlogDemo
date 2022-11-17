@@ -10,6 +10,7 @@ import SnapKit
 
 class FJFButtonTestView: UIView {
 
+    private var testButton: UIButton?
     // MARK: - Life
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -29,23 +30,28 @@ class FJFButtonTestView: UIView {
     }
     // MARK: - Private
     private func setupViewControls() {
-        self.addSubview(testButton)
+        let btn = UIButton()
+        btn.setTitle("点击", for: .normal)
+        btn.setTitleColor(.red, for: .normal)
+        btn.addTarget(self, action: #selector(testButtonClicked), for: .touchUpInside)
+        self.addSubview(btn)
+        testButton = btn
     }
     
     private func layoutViewControls() {
-        testButton.snp.makeConstraints { make in
+        testButton?.snp.makeConstraints { make in
             make.center.equalToSuperview()
             make.width.equalTo(120)
             make.height.equalTo(80)
         }
     }
     
-    // MARK: - Lazy
-    var testButton: UIButton = {
-        let btn = UIButton()
-        btn.setTitle("点击", for: .normal)
-        btn.setTitleColor(.red, for: .normal)
-        btn.addTarget(self, action: #selector(testButtonClicked), for: .touchUpInside)
-        return btn
-    }()
+//    // MARK: - Lazy
+//    var testButton: UIButton = {
+//        let btn = UIButton()
+//        btn.setTitle("点击", for: .normal)
+//        btn.setTitleColor(.red, for: .normal)
+//        btn.addTarget(self, action: #selector(testButtonClicked), for: .touchUpInside)
+//        return btn
+//    }()
 }

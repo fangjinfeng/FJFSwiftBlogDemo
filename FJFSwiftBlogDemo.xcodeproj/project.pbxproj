@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3054321ED9FC7612A8E25CA3 /* libPods-FJFSwiftBlogDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E24B318D5D1F4080FA57F0E /* libPods-FJFSwiftBlogDemo.a */; };
+		8A5D502C2924883C00B26CC2 /* dest_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A5D502B2924883C00B26CC2 /* dest_animation.json */; };
 		8A9563AF27314D6D00AA7295 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9563AE27314D6D00AA7295 /* AppDelegate.swift */; };
 		8A9563B327314D6D00AA7295 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9563B227314D6D00AA7295 /* ViewController.swift */; };
 		8A9563B627314D6D00AA7295 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A9563B427314D6D00AA7295 /* Main.storyboard */; };
@@ -32,12 +33,10 @@
 		8AD49FB228685A58009BF0DC /* FJFItemPersonInfoListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49FA428685A58009BF0DC /* FJFItemPersonInfoListCell.swift */; };
 		8AD49FB628685A6C009BF0DC /* FJFButtonClickedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49FB428685A6C009BF0DC /* FJFButtonClickedViewController.swift */; };
 		8AD49FB728685A6C009BF0DC /* FJFButtonTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49FB528685A6C009BF0DC /* FJFButtonTestView.swift */; };
-		8AD49FDE28685A7B009BF0DC /* fjf_wait_timeout_progress_mask_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AD49FB928685A7B009BF0DC /* fjf_wait_timeout_progress_mask_icon@2x.png */; };
-		8AD49FDF28685A7B009BF0DC /* fjf_wait_timeout_progress_mask_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AD49FBA28685A7B009BF0DC /* fjf_wait_timeout_progress_mask_icon@3x.png */; };
 		8AD49FE028685A7B009BF0DC /* FJFLottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49FBB28685A7B009BF0DC /* FJFLottieViewController.swift */; };
 		8AD49FE128685A7B009BF0DC /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49FBC28685A7B009BF0DC /* UIView+Extension.swift */; };
-		8AD49FF428685A7B009BF0DC /* FJFAnimationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49FD528685A7B009BF0DC /* FJFAnimationHelper.swift */; };
 		8AD49FFC2868A44C009BF0DC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD49FFB2868A44C009BF0DC /* main.swift */; };
+		8AF11953292630C900E0C920 /* FJFLaunchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF11952292630C800E0C920 /* FJFLaunchManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A5D502B2924883C00B26CC2 /* dest_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dest_animation.json; sourceTree = "<group>"; };
 		8A9563AB27314D6D00AA7295 /* FJFSwiftBlogDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FJFSwiftBlogDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9563AE27314D6D00AA7295 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A9563B227314D6D00AA7295 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,12 +86,10 @@
 		8AD49FA428685A58009BF0DC /* FJFItemPersonInfoListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJFItemPersonInfoListCell.swift; sourceTree = "<group>"; };
 		8AD49FB428685A6C009BF0DC /* FJFButtonClickedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJFButtonClickedViewController.swift; sourceTree = "<group>"; };
 		8AD49FB528685A6C009BF0DC /* FJFButtonTestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJFButtonTestView.swift; sourceTree = "<group>"; };
-		8AD49FB928685A7B009BF0DC /* fjf_wait_timeout_progress_mask_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fjf_wait_timeout_progress_mask_icon@2x.png"; sourceTree = "<group>"; };
-		8AD49FBA28685A7B009BF0DC /* fjf_wait_timeout_progress_mask_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fjf_wait_timeout_progress_mask_icon@3x.png"; sourceTree = "<group>"; };
 		8AD49FBB28685A7B009BF0DC /* FJFLottieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJFLottieViewController.swift; sourceTree = "<group>"; };
 		8AD49FBC28685A7B009BF0DC /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
-		8AD49FD528685A7B009BF0DC /* FJFAnimationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJFAnimationHelper.swift; sourceTree = "<group>"; };
 		8AD49FFB2868A44C009BF0DC /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8AF11952292630C800E0C920 /* FJFLaunchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJFLaunchManager.swift; sourceTree = "<group>"; };
 		8E24B318D5D1F4080FA57F0E /* libPods-FJFSwiftBlogDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FJFSwiftBlogDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E095AF88FCC1C90B5B93546E /* Pods-FJFSwiftBlogDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FJFSwiftBlogDemo.debug.xcconfig"; path = "Target Support Files/Pods-FJFSwiftBlogDemo/Pods-FJFSwiftBlogDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		FD0710DE223B3809BD95C6F4 /* Pods-FJFSwiftBlogDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FJFSwiftBlogDemo.release.xcconfig"; path = "Target Support Files/Pods-FJFSwiftBlogDemo/Pods-FJFSwiftBlogDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -188,6 +186,7 @@
 		8AD49F9128685A58009BF0DC /* FJFSwiftBlog */ = {
 			isa = PBXGroup;
 			children = (
+				8AF11951292630C800E0C920 /* FJFLaunchManagerDemo */,
 				8AD49FB828685A7B009BF0DC /* FJFLottieAnimationDemo */,
 				8AD49FB328685A6C009BF0DC /* FJFButtonClickedDemo */,
 				8AD49F9228685A58009BF0DC /* FJFImageLabelViewDemo */,
@@ -260,13 +259,19 @@
 		8AD49FB828685A7B009BF0DC /* FJFLottieAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
-				8AD49FB928685A7B009BF0DC /* fjf_wait_timeout_progress_mask_icon@2x.png */,
-				8AD49FBA28685A7B009BF0DC /* fjf_wait_timeout_progress_mask_icon@3x.png */,
-				8AD49FD528685A7B009BF0DC /* FJFAnimationHelper.swift */,
+				8A5D502B2924883C00B26CC2 /* dest_animation.json */,
 				8AD49FBB28685A7B009BF0DC /* FJFLottieViewController.swift */,
 				8AD49FBC28685A7B009BF0DC /* UIView+Extension.swift */,
 			);
 			path = FJFLottieAnimationDemo;
+			sourceTree = "<group>";
+		};
+		8AF11951292630C800E0C920 /* FJFLaunchManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8AF11952292630C800E0C920 /* FJFLaunchManager.swift */,
+			);
+			path = FJFLaunchManagerDemo;
 			sourceTree = "<group>";
 		};
 		C57637A9B032072288DE91FA /* Pods */ = {
@@ -383,10 +388,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AD49FDE28685A7B009BF0DC /* fjf_wait_timeout_progress_mask_icon@2x.png in Resources */,
-				8AD49FDF28685A7B009BF0DC /* fjf_wait_timeout_progress_mask_icon@3x.png in Resources */,
 				8AD49FA728685A58009BF0DC /* fjf_address_add_icon@3x.png in Resources */,
 				8A9563BB27314D6E00AA7295 /* LaunchScreen.storyboard in Resources */,
+				8A5D502C2924883C00B26CC2 /* dest_animation.json in Resources */,
 				8A9563B827314D6E00AA7295 /* Assets.xcassets in Resources */,
 				8A9563B627314D6D00AA7295 /* Main.storyboard in Resources */,
 			);
@@ -439,7 +443,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AD49FA828685A58009BF0DC /* FJFTextInputIntercepter.swift in Sources */,
-				8AD49FF428685A7B009BF0DC /* FJFAnimationHelper.swift in Sources */,
 				8AD49FA628685A58009BF0DC /* FJFImageLabelViewController.swift in Sources */,
 				8AD49FAC28685A58009BF0DC /* String+FJFTextInputStringType.swift in Sources */,
 				8A9563B327314D6D00AA7295 /* ViewController.swift in Sources */,
@@ -453,6 +456,7 @@
 				8AD49FA928685A58009BF0DC /* FJFPersonalDescEditViewController.swift in Sources */,
 				8AD49FA528685A58009BF0DC /* FJFImageLabelView.swift in Sources */,
 				8AD49FE128685A7B009BF0DC /* UIView+Extension.swift in Sources */,
+				8AF11953292630C900E0C920 /* FJFLaunchManager.swift in Sources */,
 				8AD49FAE28685A58009BF0DC /* FJFItemAutoListView.swift in Sources */,
 				8AD49FB228685A58009BF0DC /* FJFItemPersonInfoListCell.swift in Sources */,
 				8AD49FAD28685A58009BF0DC /* FJFPersonListModel.swift in Sources */,
