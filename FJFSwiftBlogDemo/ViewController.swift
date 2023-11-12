@@ -61,7 +61,9 @@ class ViewController: UIViewController {
                                         "FJFItemListViewController": "item列表view",
                                         "FJFTextInpputViewController": "输入框拦截器",
                                         "FJFLottieViewController": "lottie动画",
-                                        "FJFButtonClickedViewController": "按键点击"
+                                        "FJFButtonClickedViewController": "按键点击",
+                                        "FJFTableReloadViewController": "tableView 刷新 闪烁",
+                                        "FJFScrollViewDragViewController": "scrollView 拖动",
                                     ]
     
 }

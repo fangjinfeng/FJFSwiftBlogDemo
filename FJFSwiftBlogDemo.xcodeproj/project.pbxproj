@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		3054321ED9FC7612A8E25CA3 /* libPods-FJFSwiftBlogDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E24B318D5D1F4080FA57F0E /* libPods-FJFSwiftBlogDemo.a */; };
+		8A3092052B00B669000D4776 /* FJFScrollDragHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3091FF2B00B669000D4776 /* FJFScrollDragHelper.swift */; };
+		8A3092062B00B669000D4776 /* FJFScrollViewDragViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3092002B00B669000D4776 /* FJFScrollViewDragViewController.swift */; };
+		8A3092072B00B669000D4776 /* FJFContentTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3092012B00B669000D4776 /* FJFContentTableView.swift */; };
+		8A3092082B00B669000D4776 /* FJFImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3092032B00B669000D4776 /* FJFImageTableViewCell.swift */; };
+		8A3092092B00B669000D4776 /* FJFTableReloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3092042B00B669000D4776 /* FJFTableReloadViewController.swift */; };
 		8A5D502C2924883C00B26CC2 /* dest_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A5D502B2924883C00B26CC2 /* dest_animation.json */; };
 		8A9563AF27314D6D00AA7295 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9563AE27314D6D00AA7295 /* AppDelegate.swift */; };
 		8A9563B327314D6D00AA7295 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9563B227314D6D00AA7295 /* ViewController.swift */; };
@@ -57,6 +62,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A3091FF2B00B669000D4776 /* FJFScrollDragHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJFScrollDragHelper.swift; sourceTree = "<group>"; };
+		8A3092002B00B669000D4776 /* FJFScrollViewDragViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJFScrollViewDragViewController.swift; sourceTree = "<group>"; };
+		8A3092012B00B669000D4776 /* FJFContentTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJFContentTableView.swift; sourceTree = "<group>"; };
+		8A3092032B00B669000D4776 /* FJFImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJFImageTableViewCell.swift; sourceTree = "<group>"; };
+		8A3092042B00B669000D4776 /* FJFTableReloadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJFTableReloadViewController.swift; sourceTree = "<group>"; };
 		8A5D502B2924883C00B26CC2 /* dest_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dest_animation.json; sourceTree = "<group>"; };
 		8A9563AB27314D6D00AA7295 /* FJFSwiftBlogDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FJFSwiftBlogDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9563AE27314D6D00AA7295 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +139,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8A3091FE2B00B669000D4776 /* FJFScrollviewDragDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8A3091FF2B00B669000D4776 /* FJFScrollDragHelper.swift */,
+				8A3092002B00B669000D4776 /* FJFScrollViewDragViewController.swift */,
+				8A3092012B00B669000D4776 /* FJFContentTableView.swift */,
+			);
+			path = FJFScrollviewDragDemo;
+			sourceTree = "<group>";
+		};
+		8A3092022B00B669000D4776 /* FJFTableViewReloadDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8A3092032B00B669000D4776 /* FJFImageTableViewCell.swift */,
+				8A3092042B00B669000D4776 /* FJFTableReloadViewController.swift */,
+			);
+			path = FJFTableViewReloadDemo;
+			sourceTree = "<group>";
+		};
 		8A9563A227314D6D00AA7295 = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +215,8 @@
 		8AD49F9128685A58009BF0DC /* FJFSwiftBlog */ = {
 			isa = PBXGroup;
 			children = (
+				8A3091FE2B00B669000D4776 /* FJFScrollviewDragDemo */,
+				8A3092022B00B669000D4776 /* FJFTableViewReloadDemo */,
 				8AF11951292630C800E0C920 /* FJFLaunchManagerDemo */,
 				8AD49FB828685A7B009BF0DC /* FJFLottieAnimationDemo */,
 				8AD49FB328685A6C009BF0DC /* FJFButtonClickedDemo */,
@@ -447,7 +478,9 @@
 				8AD49FAC28685A58009BF0DC /* String+FJFTextInputStringType.swift in Sources */,
 				8A9563B327314D6D00AA7295 /* ViewController.swift in Sources */,
 				8AD49FE028685A7B009BF0DC /* FJFLottieViewController.swift in Sources */,
+				8A3092052B00B669000D4776 /* FJFScrollDragHelper.swift in Sources */,
 				8AD49FB728685A6C009BF0DC /* FJFButtonTestView.swift in Sources */,
+				8A3092092B00B669000D4776 /* FJFTableReloadViewController.swift in Sources */,
 				8AD49FAF28685A58009BF0DC /* FJFItemListView.swift in Sources */,
 				8AD49FFC2868A44C009BF0DC /* main.swift in Sources */,
 				8AD49FAA28685A58009BF0DC /* FJFTextInpputViewController.swift in Sources */,
@@ -457,8 +490,11 @@
 				8AD49FA528685A58009BF0DC /* FJFImageLabelView.swift in Sources */,
 				8AD49FE128685A7B009BF0DC /* UIView+Extension.swift in Sources */,
 				8AF11953292630C900E0C920 /* FJFLaunchManager.swift in Sources */,
+				8A3092072B00B669000D4776 /* FJFContentTableView.swift in Sources */,
 				8AD49FAE28685A58009BF0DC /* FJFItemAutoListView.swift in Sources */,
+				8A3092082B00B669000D4776 /* FJFImageTableViewCell.swift in Sources */,
 				8AD49FB228685A58009BF0DC /* FJFItemPersonInfoListCell.swift in Sources */,
+				8A3092062B00B669000D4776 /* FJFScrollViewDragViewController.swift in Sources */,
 				8AD49FAD28685A58009BF0DC /* FJFPersonListModel.swift in Sources */,
 				8AD49FB028685A58009BF0DC /* FJFItemListViewController.swift in Sources */,
 				8AD49FB128685A58009BF0DC /* FJFItemPersonInfoView.swift in Sources */,
