@@ -19,11 +19,11 @@ class FJFScrollViewDragViewController: UIViewController {
         self.externalScrollView.addSubview(self.insideTableView)
         self.externalScrollView.frame = self.view.bounds
         self.navigationController?.setNavigationBarHidden(true, animated: false)
-        self.scrollDragHelper.lowestShowHeight = kScreenH * 0.3
-        self.scrollDragHelper.middleShowHeight = kScreenH * 0.52
-        self.externalScrollView.frame = CGRect(x: 0, y: self.scrollDragHelper.getMiddlePositionToTopDistance(), width: self.view.width, height: kScreenH)
+        self.scrollDragHelper.lowestShowHeight = UIScreen.main.bounds.height * 0.3
+        self.scrollDragHelper.middleShowHeight = UIScreen.main.bounds.height * 0.52
+        self.externalScrollView.frame = CGRect(x: 0, y: self.scrollDragHelper.getMiddlePositionToTopDistance(), width: self.view.width, height: UIScreen.main.bounds.height)
         self.insideHeaderView.frame = CGRect(x: 0, y: 0, width: self.view.width, height: 200)
-        self.insideTableView.frame = CGRect(x: 0, y: self.insideHeaderView.frame.maxY, width: self.view.width, height: kScreenH - self.insideHeaderView.height)
+        self.insideTableView.frame = CGRect(x: 0, y: self.insideHeaderView.frame.maxY, width: self.view.width, height: UIScreen.main.bounds.height - self.insideHeaderView.height)
         self.scrollDragHelper.addPanGestureRecognizer(externalScrollView: self.externalScrollView)
     }
     
@@ -83,7 +83,7 @@ class FJFScrollViewDragViewController: UIViewController {
     // MARK: - Lazy
     lazy var scrollDragHelper: FJFScrollDragHelper = {
         let tool = FJFScrollDragHelper()
-        tool.topShowHeight = kScreenH - (kStatusBarFrameH + 20.0)
+        tool.topShowHeight = UIScreen.main.bounds.height - 60.0
         tool.insideScrollView = self.insideTableView
         tool.goToTopPosiionBlock = { [weak self] in
             guard let self = self else { return }

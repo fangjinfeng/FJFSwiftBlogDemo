@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import SDWebImage
 
 class FJFImageTableViewCell: UITableViewCell {
     public static var reuseID = "FJFImageTableViewCellId"

@@ -1,24 +1,30 @@
 PODS:
   - HandyJSON (5.0.2)
   - lottie-ios (3.5.0)
+  - SDWebImage (5.10.4):
+    - SDWebImage/Core (= 5.10.4)
+  - SDWebImage/Core (5.10.4)
   - SnapKit (5.0.1)
 
 DEPENDENCIES:
   - HandyJSON
   - lottie-ios (= 3.5.0)
+  - SDWebImage (~> 5.10.4)
   - SnapKit (~> 5.0.1)
 
 SPEC REPOS:
   trunk:
     - HandyJSON
     - lottie-ios
+    - SDWebImage
     - SnapKit
 
 SPEC CHECKSUMS:
   HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
   lottie-ios: c55158d67d0629a260625cc2ded2052b829e3c3e
+  SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: 8eb347887f2d1d3e96e666d178a717815d2143da
+PODFILE CHECKSUM: 7cf29369912dc381496e1f45f8698447e45ca498
 
 COCOAPODS: 1.11.3

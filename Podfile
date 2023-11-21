@@ -4,5 +4,5 @@ target 'FJFSwiftBlogDemo' do
     pod 'SnapKit',            '~> 5.0.1'
     pod 'HandyJSON'
     pod 'lottie-ios',         '3.5.0'
-    pod 'SDWebImage'
+    pod 'SDWebImage',         '~> 5.10.4'
 end

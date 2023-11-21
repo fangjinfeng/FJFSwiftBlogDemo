@@ -23,9 +23,9 @@ public enum FJFScrollViewPositionType {
 
 class FJFScrollDragHelper: NSObject {
     /// scrollView 显示高度
-    public var scrollViewHeight: CGFloat = kScreenH
+    public var scrollViewHeight: CGFloat = UIScreen.main.bounds.height
     /// 限制的高度(超过这个高度可以滚动)
-    public var kScrollLimitHeight: CGFloat = kScreenH * 0.51
+    public var kScrollLimitHeight: CGFloat = UIScreen.main.bounds.height * 0.51
     /// 滑动初始速度(大于该速度直接滑动到顶部或底部)
     public var slideInitSpeedLimit: CGFloat = 3500.0
     /// 当前 滚动 视图 位置
@@ -194,7 +194,7 @@ class FJFScrollDragHelper: NSObject {
                 pan.setTranslation(CGPoint(x: 0, y: 0), in: contentScrollView)
                 return
             }
-            let scrollViewDistanceToTop = kScreenH - contentScrollView.top
+            let scrollViewDistanceToTop = UIScreen.main.bounds.height - contentScrollView.top
             let topAndMiddleMeanValue = (self.topShowHeight + self.middleShowHeight) / 2.0
             let middleAndBottomMeanValue = (self.middleShowHeight + self.lowestShowHeight) / 2.0
             
